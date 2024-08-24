@@ -18,17 +18,17 @@ export default function Home() {
     <div>
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto '>
         <h1 className='text-3xl font-bold lg:text-6xl'>My Project Blogs</h1>
-        <p className='text-gray-500 text-xs sm:text-sm'>
-        Hi all. Here you'll find a showcase of my projects, each accompanied by a brief description with system design. These projects demonstrate my skills in web development, software engineering, DevOps Engineering, problem-solving, and cloud techniques.
+        <p className='text-gray-600 text-xs sm:text-sm dark:text-custom-alu1'>
+        Hi all. Here you will find a showcase of my projects, each accompanied by a brief description with system design. These projects demonstrate my skills in web development, software engineering, DevOps Engineering, problem-solving, and cloud techniques.
         </p>
         <Link
           to='/search'
-          className='text-xs sm:text-sm text-teal-500 font-bold hover:underline'
+          className='text-xs sm:text-sm text-teal-500 font-bold dark:text-custom-orange hover:underline'
         >
           View all posts
         </Link>
       </div>
-      <div className='p-3 bg-amber-100 dark:bg-slate-700'>
+      <div className='p-3 bg-indigo-100 dark:bg-custom-green'>
         <CallToAction />
       </div>
 
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <Link
               to={'/search'}
-              className='text-lg text-teal-500 hover:underline text-center'
+              className='text-lg text-teal-500 hover:underline text-center dark:text-custom-orange'
             >
               View all posts
             </Link>
